@@ -1,0 +1,14 @@
+C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\obj\Debug\SchoolKiosk.csproj.AssemblyReference.cache
+C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\obj\Debug\SchoolKiosk.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\obj\Debug\SchoolKiosk.Properties.Resources.resources
+C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\obj\Debug\SchoolKiosk.csproj.GenerateResource.cache
+C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\obj\Debug\SchoolKiosk.csproj.CoreCompileInputs.cache
+C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\bin\Debug\SchoolKiosk.exe.config
+C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\bin\Debug\SchoolKiosk.exe
+C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\bin\Debug\SchoolKiosk.pdb
+C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\obj\Debug\SchoolKiosk.csproj.CopyComplete
+C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\obj\Debug\SchoolKiosk.exe
+C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\obj\Debug\SchoolKiosk.pdb
+C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\obj\Debug\Kiosk.Form1.resources
