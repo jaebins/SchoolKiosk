@@ -11,4 +11,5 @@ C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\bin\Debug\N
 C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\obj\Debug\SchoolKiosk.csproj.CopyComplete
 C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\obj\Debug\SchoolKiosk.exe
 C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\obj\Debug\SchoolKiosk.pdb
-C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\obj\Debug\Kiosk.Form1.resources
+C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\obj\Debug\Kiosk.Main.resources
+C:\Users\Jaebin\Desktop\Jaebin\Programing\c#\SchoolKiosk\SchoolKiosk\obj\Debug\SchoolKiosk.Attendance.resources

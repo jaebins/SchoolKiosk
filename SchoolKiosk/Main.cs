@@ -3,19 +3,21 @@ using System.Windows.Forms;
 using System;
 using System.IO;
 using System.Collections.Generic;
+using SchoolKiosk;
 
 namespace Kiosk
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
         TextBox[] input_Nums = new TextBox[5];
         string resultInputNums = string.Empty;
 
-        List<string> students = new List<string>();
-        int timerCount = 0;
         Timer screenTurnTimer = new Timer();
+        List<string> students = new List<string>();
+        List<string> checking_Students = new List<string>();
+        int timerCount = 0;
 
-        public Form1()
+        public Main()
         {
             InitializeComponent();
         }
@@ -81,13 +83,20 @@ namespace Kiosk
 
         void CheckClass()
         {
-            if (students.Contains(resultInputNums))
+            if (students.Contains(resultInputNums) && !checking_Students.Contains(resultInputNums))
             {
+                checking_Students.Add(resultInputNums);
+                checking_Students.Sort();
+
                 panel_Screen2.Visible = true;
                 label_timerCount.Text = (3 - timerCount).ToString();
                 screenTurnTimer.Interval = 1000;
                 screenTurnTimer.Tick += (sender, e) => timer_GoInitScene(sender, e);
                 screenTurnTimer.Start();
+            }
+            else if(checking_Students.Contains(resultInputNums))
+            {
+                MessageBox.Show("이미 출석이 된 번호입니다.");
             }
             else
             {
@@ -124,6 +133,16 @@ namespace Kiosk
                 input_Nums[i].Text = "";
             }
             resultInputNums = "";
+        }
+
+        private void but_nowAttentdance_Click(object sender, EventArgs e)
+        {
+            Attendance attendance = new Attendance();
+            for(int i = 0; i < checking_Students.Count; i++)
+            {
+                attendance.input_Attendance.Text += checking_Students[i] + "\r\n";
+            }
+            attendance.Show();
         }
     }
 }
